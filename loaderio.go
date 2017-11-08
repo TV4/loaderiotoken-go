@@ -3,7 +3,6 @@ package loaderiotoken
 
 import (
 	"fmt"
-	"io"
 	"net/http"
 	"net/url"
 )
@@ -18,7 +17,7 @@ func Register(mux *http.ServeMux, token string) {
 		fmt.Sprintf("/loaderio-%s.txt", url.PathEscape(token)),
 		func(w http.ResponseWriter, r *http.Request) {
 			w.Header().Set("Cache-Control", "public, max-age=10")
-			io.WriteString(w, fmt.Sprintf("loaderio-%s\n", token))
+			fmt.Fprintf(w, "loaderio-%s\n", token)
 		},
 	)
 }
