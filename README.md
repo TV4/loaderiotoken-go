@@ -39,7 +39,7 @@ loaderio-97bd38305a81f2d89b5f3aa44500ec96
 ```
 
 ## License
-Copyright (c) 2017 Bonnier Broadcasting
+Copyright (c) 2017-2019 TV4
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
