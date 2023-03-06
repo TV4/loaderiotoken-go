@@ -1,3 +1,5 @@
+// Deprecated: This package is no longer maintained.
+//
 // Package loaderiotoken sets up a verification endpoint for loader.io
 package loaderiotoken
 

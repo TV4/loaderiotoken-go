@@ -1,3 +1,5 @@
+**Deprecated; this package is no longer maintained.**
+
 # loaderiotoken-go
 
 [![Build Status](https://travis-ci.org/TV4/loaderiotoken-go.svg?branch=master)](https://travis-ci.org/TV4/loaderiotoken-go)
